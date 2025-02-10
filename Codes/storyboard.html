@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard - Wireframe - My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            overflow-y: scroll;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .page-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color:  #0069d9;
+            padding: 8px 0;
+            text-align: center;
+            
+        }
+
+        nav a {
+            color: #333;
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #bbb;
+            margin: 20px auto;
+        }
+
+        footer {
+            background-color: #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1, h2, p {
+            font-size: 1rem;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .info-table {
+            margin-top: 10px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .info-table th, .info-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .info-table th {
+            background-color: #bbb;
+        }
+
+        .home-link {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            width: 50px;
+        }
+
+        .home-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- return home button -->
+    <a href="index.html" class="home-link">
+        Home
+    </a>
+
+    <div class="container">
+        <!-- index page -->
+        <div class="page-box">
+            <h2>Index Page</h2>
+            <header>
+                <h1>My Portfolio</h1>
+            </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Professional</a>
+                <a href="#">Personality</a>
+                <a href="#">Personal Development</a>
+                <a href="#">References</a>
+            </nav>
+            <main>
+                <!-- profile section mockup -->
+                <div class="profile-pic"></div>
+                <div style="text-align: center;">[Name]</div>
+                <div style="text-align: center;">[Profession]</div>
+                <h2 style="text-align: center;"><span class="highlight">About Me</span></h2>
+                <p style="text-align: center;">[Brief introduction]</p>
+                <table class="info-table" style="margin: 0 auto;">
+                    <tr><th>Age</th><td>[Age]</td></tr>
+                    <tr><th>Gender</th><td>[Gender]</td></tr>
+                    <tr><th>Email</th><td>[Email]</td></tr>
+                    <tr><th>Phone</th><td>[Phone]</td></tr>
+                    <tr><th>Location</th><td>[Location]</td></tr>
+                </table>
+            </main>
+            <footer>
+                <p>&copy; 2025 [Name]. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- professional page -->
+        <div class="page-box">
+            <h2>Professional Page</h2>
+            <header>
+                <h1>Professional Background</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Professional</a>
+                <a href="#">Personality</a>
+                <a href="#">Personal Development</a>
+                <a href="#">References</a>
+            </nav>
+            <main>
+                <h2><span class="highlight">Professional Experience</span></h2>
+                <p>[Brief introduction to professional background]</p>
+                <h3><span class="highlight">Skills</span></h3>
+                <p>[List of key skills]</p>
+                <h3><span class="highlight">Experience</span></h3>
+                <p>[Work experience details]</p>
+                <h3><span class="highlight">Certifications</span></h3>
+                <p>[List of certifications]</p>
+            </main>
+            <footer>
+                <p>&copy; 2025 [Name]. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- personality page-->
+        <div class="page-box">
+            <h2>Personality Page</h2>
+            <header>
+                <h1>Personality</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Professional</a>
+                <a href="#">Personality</a>
+                <a href="#">Personal Development</a>
+                <a href="#">References</a>
+            </nav>
+            <main>
+                <h2><span class="highlight">My Personality</span></h2>
+                <p>[Introduction to personality traits]</p>
+                <h3><span class="highlight">Hobbies & Interests</span></h3>
+                <p>[List of hobbies and interests]</p>
+                <h3><span class="highlight">Fun Facts</span></h3>
+                <p>[Fun facts about personality]</p>
+                <h3><span class="highlight">Impact on Academic Life</span></h3>
+                <p>[How personality affects academic/work life]</p>
+            </main>
+            <footer>
+                <p>&copy; 2025 [Name]. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- personal development page -->
+        <div class="page-box">
+            <h2>Personal Development Page</h2>
+            <header>
+                <h1>Personal Development</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Professional</a>
+                <a href="#">Personality</a>
+                <a href="#">Personal Development</a>
+                <a href="#">References</a>
+            </nav>
+            <main>
+                <h2><span class="highlight">Personal Development</span></h2>
+                <p>[Brief overview of personal development]</p>
+                <h3><span class="highlight">Books</span></h3>
+                <p>[Books that contributed to personal growth]</p>
+                <h3><span class="highlight">Degree & Skills</span></h3>
+                <p>[Education and skills acquired]</p>
+                <h3><span class="highlight">Certifications</span></h3>
+                <p>[Relevant certifications]</p>
+            </main>
+            <footer>
+                <p>&copy; 2025 [Name]. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- references page-->
+        <div class="page-box">
+            <h2>References Page</h2>
+            <header>
+                <h1>References</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Professional</a>
+                <a href="#">Personality</a>
+                <a href="#">Personal Development</a>
+                <a href="#">References</a>
+            </nav>
+            <main>
+                <h2><span class="highlight">References</span></h2>
+                <p>[Brief introduction about references]</p>
+                <h3><span class="highlight">Bibliographic Sources</span></h3>
+                <p>[List of sources used for projects]</p>
+                <h3><span class="highlight">Reference Links</span></h3>
+                <p>[External references and links]</p>
+            </main>
+            <footer>
+                <p>&copy; 2025 [Name]. All rights reserved.</p>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+</html>

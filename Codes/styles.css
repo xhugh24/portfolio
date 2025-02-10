@@ -1,0 +1,193 @@
+/* styles for the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #333;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/441/521/non_2x/abstract-white-and-gray-gradient-background-with-geometric-shape-illustration-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* navigation bar styles */
+nav {
+    text-align: center;
+    background-color: #0069d9;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* main content area */
+main {
+    text-align: center;
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+/* profile picture styles */
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* heading styles */
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+/* paragraph text styles */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* highlighted text */
+.highlight {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* info table styles */
+.info-table {
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.info-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.info-table td {
+    background-color: #f4f7f6;
+}
+
+/* footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* bookmark section styles */
+.bookmark {
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.bookmark a {
+    color: #007BFF;
+    margin: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.bookmark a:hover {
+    text-decoration: underline;
+}
+
+/* personality test section */
+.personality-test {
+    margin-top: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personality-test h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.personality-test img {
+    max-width: 900px;
+    max-height: 900px;
+    margin-top: 1rem;
+    border-radius: 1%;
+    border: 2px solid #dedfdf;
+}
+
+.personality-test p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.personality-test .summary {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.personality-test .test-link {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.personality-test .test-link:hover {
+    background-color: #0056b3;
+}
